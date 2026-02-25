@@ -153,6 +153,15 @@ The variables with the highest predictive power identified include:
 ---
 
 **Repository Structure:** Brief explanation of folder organization
+1. **`src/data_sample/`** - Sample of the dataset used (only if it is public)
+
+2. **`src/img/`** - Images required or generated for the project
+
+3. **`src/models/`** - Saved trained models
+
+4. **`src/notebooks/`** - Development and experimentation notebooks
+
+5. **`src/utils/`** - Reusable auxiliary code
 
 ---
 
