@@ -67,7 +67,9 @@ Herramientas:
 - **Principales resultados:** Resumen de las métricas y conclusiones
 - **Autores:** Nombres y enlaces a perfiles de GitHub
 
-
+1. Alejandro Arbide: https://github.com/alejandroarbide | https://www.linkedin.com/in/alejandro-arbide/
+2. Camila Fiore: https://github.com/cflorenciafiore | https://www.linkedin.com/in/camilafiore/
+3. Judit García: https://github.com/Juditga97 | https://www.linkedin.com/in/judit-garcia-aguilar/
 
 ### **ML_Heart_Attack_Prevention** **ENG**
 
