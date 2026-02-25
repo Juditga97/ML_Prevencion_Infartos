@@ -4,9 +4,12 @@
 
 Las enfermedades cardíacas son una de las principales causas de mortalidad a nivel mundial. La detección temprana de pacientes con alto riesgo cardiovascular es clave para aplicar medidas preventivas y mejorar los resultados clínicos.
 
+
 El objetivo de este proyecto es desarrollar un modelo de Machine Learning capaz de predecir si una persona tiene riesgo de sufrir un ataque cardíaco, utilizando variables relacionadas con su salud, estilo de vida y antecedentes médicos.
 
+
 - **Dataset utilizado:** Descripción breve, si es público o privado, y cómo acceder a él
+
 Se ha utilizado un dataset público que contiene información sobre el estado de salud de pacientes, incluyendo:
 
 - Variables demográficas (edad, sexo)
