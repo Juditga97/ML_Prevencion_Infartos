@@ -7,6 +7,7 @@ Las enfermedades cardíacas son una de las principales causas de mortalidad a ni
 
 El objetivo de este proyecto es desarrollar un modelo de Machine Learning capaz de predecir si una persona tiene riesgo de sufrir un ataque cardíaco, utilizando variables relacionadas con su salud, estilo de vida y antecedentes médicos.
 
+---
 
 - **Dataset utilizado:** Descripción breve, si es público o privado, y cómo acceder a él
 
@@ -23,6 +24,8 @@ Variable objetivo:
 - `HadHeartAttack` → indica si el paciente ha sufrido un ataque cardíaco o no.
 
 El dataset es público y puede encontrarse en la plataforma Kaggle en el siguiente enlace: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease 
+
+---
 
 - **Solución adoptada:** Descripción breve de la aproximación de ML utilizada
 Se ha seguido un enfoque supervisado de clasificación utilizando Machine Learning.
@@ -44,8 +47,20 @@ Se han identificado las variables con mayor capacidad predictiva, como:
 - AgeCategory
 - HadDiabetes
 
-- **Estructura del repositorio:** Breve explicación de la organización de carpetas
+---
 
+- **Estructura del repositorio:** Breve explicación de la organización de carpetas
+1. **`src/data_sample/`** - Muestra del dataset utilizado
+
+2. **`src/img/`** - Imágenes necesarias o generadas para el proyecto
+
+3. **`src/models/`** - Modelos entrenados guardados
+
+4. **`src/notebooks/`** - Notebooks de desarrollo y pruebas
+   
+5. **`src/utils/`** - Código auxiliar reutilizable
+     
+---
 
 - **Tecnologías utilizadas:** Librerías, herramientas, lenguajes
 Lenguaje:
@@ -54,11 +69,11 @@ Lenguaje:
 
 Librerías principales:
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 Herramientas:
 
@@ -66,15 +81,26 @@ Herramientas:
 - Git
 - GitHub
 
+---
+
 - **Instrucciones de reproducción:** Cómo ejecutar el código
+
+---
+
 - **Principales resultados:** Resumen de las métricas y conclusiones
+
+---
+
 - **Autores:** Nombres y enlaces a perfiles de GitHub
 
 1. Alejandro Arbide: https://github.com/alejandroarbide | https://www.linkedin.com/in/alejandro-arbide/
 2. Camila Fiore: https://github.com/cflorenciafiore | https://www.linkedin.com/in/camilafiore/
 3. Judit García: https://github.com/Juditga97 | https://www.linkedin.com/in/judit-garcia-aguilar/
 
+---
+
 ### **ML_Heart_Attack_Prevention** **ENG**
+
 
 **Problem Description:** What business problem is being addressed?
 
@@ -149,3 +175,11 @@ Tools:
 - Jupyter Notebook
 - Git
 - GitHub
+
+
+
+- **Authors:** Names and links to GitHub profiles
+
+1. Alejandro Arbide: https://github.com/alejandroarbide | https://www.linkedin.com/in/alejandro-arbide/
+2. Camila Fiore: https://github.com/cflorenciafiore | https://www.linkedin.com/in/camilafiore/
+3. Judit García: https://github.com/Juditga97 | https://www.linkedin.com/in/judit-garcia-aguilar/
