@@ -16,7 +16,7 @@ Se ha utilizado un dataset público que contiene información sobre el estado de
 - Variables demográficas (edad, sexo)
 - Indicadores físicos (BMI, peso, altura)
 - Hábitos de vida (actividad física, tabaquismo)
-- Condiciones médicas previas (diabetes, enfermedad renal, angina, etc.)
+- Condiciones médicas previas (diabetes, angina, etc.)
 - Estado general de salud
 
 Variable objetivo:
@@ -185,7 +185,15 @@ Tools:
 - Git
 - GitHub
 
+---
 
+- **Instructions to reproduce:** How to run the code
+
+---
+
+- **Main Results:** Summary of metrics and conclusions
+
+---
 
 - **Authors:** Names and links to GitHub profiles
 
