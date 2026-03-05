@@ -85,9 +85,44 @@ Herramientas:
 
 - **Instrucciones de reproducción:** Cómo ejecutar el código
 
+Para reproducir los resultados del proyecto y ejecutar el modelo de predicción de riesgo cardiovascular, sigue los siguientes pasos:
+
+
 ---
 
 - **Principales resultados:** Resumen de las métricas y conclusiones
+
+El objetivo del proyecto fue desarrollar un modelo de machine learning capaz de predecir el riesgo de ataque cardíaco a partir de variables médicas y de estilo de vida. 
+
+Tras el análisis exploratorio, se identificaron como variables más relevantes la edad, el estado general de salud, los días de mala salud física, el peso corporal y antecedentes médicos como angina o ictus. Estas variables mostraron mayor relación con la probabilidad de sufrir un ataque cardíaco. 
+
+Se entrenaron y compararon varios modelos de clasificación utilizando ROC-AUC como métrica principal para evaluar su capacidad discriminativa. Los modelos evaluados fueron:
+
+* **Regresión Logística (baseline)**
+
+* **Random Forest**
+
+* **Gradient Boosting**
+
+* **XGBoost**
+
+En el conjunto de test, los resultados fueron:
+
+- **XGBoost: ROC-AUC ≈ 0.884**
+
+- **Gradient Boosting: ROC-AUC ≈ 0.884**
+
+- **Regresión Logística: ROC-AUC ≈ 0.883**
+
+- **Random Forest: ROC-AUC ≈ 0.865**
+
+Debido a su mejor rendimiento, **XGBoost** fue seleccionado como modelo final. Tras la optimización de hiperparámetros y la validación cruzada, el modelo alcanzó en el conjunto de test:
+
+- **ROC-AUC: ~ 0.878**
+
+- **Accuracy: ~ 88%**
+
+*Estos resultados indican que el modelo tiene buena capacidad para discriminar entre pacientes con mayor o menor riesgo de ataque cardíaco, lo que podría ser útil como herramienta de apoyo en contextos de prevención clínica.*
 
 ---
 
@@ -192,6 +227,38 @@ Tools:
 ---
 
 - **Main Results:** Summary of metrics and conclusions
+
+The objective of this project was to develop a machine learning model capable of predicting the risk of heart attack using medical and lifestyle data. 
+
+During the exploratory data analysis, several variables showed a stronger relationship with the target variable. The most relevant predictors included age, general health condition, number of days with poor physical health, body weight, and medical history such as angina or stroke. 
+
+To evaluate predictive performance, ROC-AUC was selected as the main evaluation metric, as it measures the model’s ability to correctly distinguish between patients with and without heart attack risk. Four classification models were trained and compared:
+
+- **Logistic Regression (baseline)**
+
+- **Random Forest**
+
+- **Gradient Boosting**
+
+- **XGBoost**
+
+On the test dataset, the models achieved the following results:
+
+- **XGBoost: ROC-AUC ≈ 0.884**
+
+- **Gradient Boosting: ROC-AUC ≈ 0.884**
+
+- **Logistic Regression: ROC-AUC ≈ 0.883**
+
+- **Random Forest: ROC-AUC ≈ 0.865**
+
+Among them, XGBoost showed the best predictive performance and was selected as the final model. After hyperparameter optimization and cross-validation, the final model achieved:
+
+- **ROC-AUC: ~ 0.878**
+
+- **Accuracy: ~ 88% on the independent test set.**
+
+*These results indicate that the model has a strong ability to identify patterns associated with heart attack risk, making it a potential tool for supporting preventive decision-making in healthcare contexts.*
 
 ---
 
