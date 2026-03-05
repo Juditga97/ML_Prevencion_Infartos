@@ -1,4 +1,4 @@
-### **ML_Prevencion_infartos** **SPA**
+### **ML_Prevención_Infartos** **SPA**
 
 **Descripción del problema:** ¿Qué problema de negocio se quiere resolver?
 
@@ -139,7 +139,7 @@ Debido a su mejor rendimiento, **XGBoost** fue seleccionado como modelo final. T
 
 ---
 
-### **ML_Heart_Attack_Prevention** **ENG**
+### **ML_Prevención_Infartos** **ENG**
 
 
 **Problem Description:** What business problem is being addressed?
