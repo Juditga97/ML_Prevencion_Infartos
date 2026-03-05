@@ -63,6 +63,7 @@ Se han identificado las variables con mayor capacidad predictiva, como:
 ---
 
 - **Tecnologías utilizadas:** Librerías, herramientas, lenguajes
+
 Lenguaje:
 
 - Python
