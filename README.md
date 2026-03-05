@@ -86,7 +86,11 @@ Herramientas:
 
 - **Instrucciones de reproducción:** Cómo ejecutar el código
 
-Para reproducir los resultados del proyecto y ejecutar el modelo de predicción de riesgo cardiovascular, sigue los siguientes pasos:
+Para reproducir el análisis y los resultados del proyecto, se debe ejecutar el archivo **main.ipynb**, ubicado en la rama main del repositorio. Este notebook contiene todo el flujo de trabajo del proyecto, incluyendo la exploración de datos, el preprocesamiento, el entrenamiento de los modelos y la evaluación de resultados.
+
+Para garantizar su correcta ejecución, es necesario ejecutar las celdas en el orden en el que aparecen dentro del notebook. Cada bloque de código está acompañado de explicaciones que describen el proceso realizado y los resultados obtenidos en cada etapa del análisis.
+
+De este modo, siguiendo el orden secuencial del notebook, es posible reproducir todo el proceso de análisis y modelado desarrollado en el proyecto.
 
 
 ---
@@ -224,6 +228,12 @@ Tools:
 ---
 
 - **Instructions to reproduce:** How to run the code
+
+To reproduce the analysis and results of this project, the file **main.ipynb** must be executed. This notebook is located in the main branch of the repository and contains the complete workflow of the project, including data exploration, preprocessing, model training, and evaluation of the results.
+
+For the notebook to run correctly, the cells should be executed in the same order in which they appear. Each code block is accompanied by explanations that describe the steps performed and the results obtained throughout the analysis.
+
+By following the notebook sequentially, it is possible to reproduce the entire analysis and modeling process developed in this project.
 
 ---
 
